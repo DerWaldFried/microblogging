@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title><?php htmlspecialchars($title) ?></title>
 
-    <?php Asset::renderCss() ?>
+    <?= Asset::renderCss() ?>
 </head>
 <body>
 
